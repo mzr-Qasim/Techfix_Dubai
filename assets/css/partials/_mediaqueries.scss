@@ -1,0 +1,81 @@
+@media (max-width: 1199px){
+    .main-hero-section{
+        .swiper-slide{
+            figure{
+                aspect-ratio: 1/.9;
+            }
+        }
+    }
+}
+
+
+@media (max-width: 991px){
+    .lg-hide{
+        display: none!important;
+    }
+    .Appointment-lg-none{
+        display: none;
+    }
+    .Appointment-lg{
+        display: flex!important;
+    }
+    .lg-font{
+        font-size: calc(3rem + .2vw)!important;
+    }
+
+    .main-hero-section{
+        .swiper-slide{
+            figure{
+                aspect-ratio: 1/1.2;
+            }
+        }
+    }
+}
+
+
+
+@media (max-width: 767px){
+    .md-hide{
+        display: none!important;
+    }
+    .info-nav-inner{
+        flex-direction: column;
+        align-items: start;
+        .info-nav-left{
+            margin-bottom: 2rem;
+        }
+    }
+    .main-hero-section{
+        .swiper-slide{
+            figure{
+                aspect-ratio: 1/1.3;
+            }
+        }
+    }
+    
+}
+
+
+@media (max-width: 575px){
+    .main-hero-section{
+        .swiper-slide{
+            figure{
+                aspect-ratio: 1/2;
+            }
+        }
+        .swiper-button-next, .swiper-button-prev {
+            display: none;
+        }
+    }
+}
+
+
+@media (max-width: 375px){
+    .main-hero-section{
+        .swiper-slide{
+            figure{
+                aspect-ratio: 1/2.5;
+            }
+        }
+    }
+}

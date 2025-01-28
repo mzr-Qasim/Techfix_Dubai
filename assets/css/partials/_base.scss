@@ -1,0 +1,118 @@
+
+$universal-color-1: #090808;
+$universal-color-2: #ffffff;
+$universal-color-3: #000000;
+$primary-color: #005cff;
+$secondary-color: #f5545a;
+$tertiary-color:  #EEEEEE;
+$quaternary-color: #1a2c50;
+
+
+
+body{
+    overflow: hidden;
+    overflow-y: auto;
+      font-family: "Poppins", serif;
+}
+
+
+h1, h2, h3, h4, p, ul, li, figure{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.quick-call-info{
+    display: flex;
+    align-items: center;
+
+    .quick-call{
+        width: 3rem;
+        height: 3rem;
+        margin-right: 1rem;
+        border-radius: 50%;
+        background-color: $secondary-color;
+        color: $universal-color-2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.5rem;
+        transition: ease-in-out .3s;
+
+        &:hover{
+            background-color: $primary-color;
+        }
+    }
+    .quick-call-no{
+        color: $universal-color-2;
+        strong{
+            display: block;
+            font-size: calc(1rem + .2vw);
+            span{
+                display: block;
+                font-size: 70%;
+                font-weight: 500;
+            }
+        }
+        &:hover{
+            span{
+                color: $secondary-color;
+            }
+        }
+    }
+
+}
+
+
+.info-nav-info{
+    color: $universal-color-2;
+    display: flex;
+    align-items: center;
+}
+
+.info-icons{
+    margin-right: .5rem;
+    font-size: 1.2rem;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: $secondary-color;
+}
+
+
+.round-icons{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color: $universal-color-2;
+    color: $universal-color-1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.theme-button{
+    background-color: $primary-color;
+    color: $universal-color-2;
+    padding: 1rem 2rem;
+    transition: ease-in-out .3s;
+
+    &:hover{
+        background-color: $secondary-color;
+    }
+}
+
+
+.swiper-button-next, .swiper-button-prev {
+    color: $universal-color-2;
+}
