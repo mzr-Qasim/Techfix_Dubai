@@ -20,10 +20,22 @@
         font-size: calc(3rem + .2vw)!important;
     }
 
+    // .row [class^="col-"] {
+    //     padding-bottom: 2rem;
+    // }
+
     .main-hero-section{
         .swiper-slide{
             figure{
                 aspect-ratio: 1/1.2;
+            }
+        }
+    }
+    .our-beginning{
+        .beginning-col-inner{
+            figcaption{
+                left: 0!important;
+                width: 80%!important;
             }
         }
     }
