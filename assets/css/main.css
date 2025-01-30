@@ -12464,6 +12464,12 @@ small.section-info::after, .section-info.small::after {
   .main-hero-section .swiper-slide figure {
     aspect-ratio: 1/0.9;
   }
+  .our-beginning .beginning-col-inner figure figcaption {
+    position: static !important;
+  }
+  .our-beginning .beginning-col-inner figure figcaption .figcaption-inner {
+    border-top-right-radius: 0;
+  }
 }
 @media (max-width: 991px) {
   .lg-hide {
@@ -12475,12 +12481,14 @@ small.section-info::after, .section-info.small::after {
   .lg-font {
     font-size: calc(3rem + 0.2vw) !important;
   }
+  .row [class^=col-]:not(:last-child) {
+    padding-bottom: 3rem;
+  }
   .main-hero-section .swiper-slide figure {
     aspect-ratio: 1/1.2;
   }
-  .our-beginning .beginning-col-inner figcaption {
-    left: 0 !important;
-    width: 80% !important;
+  .our-beginning .beginning-col-inner figure {
+    aspect-ratio: 1/1;
   }
 }
 @media (max-width: 767px) {

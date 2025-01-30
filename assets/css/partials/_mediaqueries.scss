@@ -6,6 +6,18 @@
             }
         }
     }
+    .our-beginning{
+        .beginning-col-inner{
+            figure{
+                figcaption{
+                    position: static!important;
+                    .figcaption-inner{
+                        border-top-right-radius: 0;
+                    }
+                }
+            }
+        }
+    }
 }
 
 
@@ -20,9 +32,11 @@
         font-size: calc(3rem + .2vw)!important;
     }
 
-    // .row [class^="col-"] {
-    //     padding-bottom: 2rem;
-    // }
+    .row [class^="col-"] {
+        &:not(:last-child){
+            padding-bottom: 3rem;
+        }
+    }
 
     .main-hero-section{
         .swiper-slide{
@@ -33,12 +47,12 @@
     }
     .our-beginning{
         .beginning-col-inner{
-            figcaption{
-                left: 0!important;
-                width: 80%!important;
+            figure{
+                aspect-ratio: 1/1;
             }
         }
     }
+    
 }
 
 
