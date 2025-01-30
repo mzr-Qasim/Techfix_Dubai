@@ -14,7 +14,7 @@
     .our-beginning{
         .beginning-col-inner{
             figure{
-                aspect-ratio: 1/1.2;
+                aspect-ratio: 1/1.1;
                 figcaption{
                     position: static!important;
                     .figcaption-inner{
@@ -57,13 +57,7 @@
         display: none!important;
     }
     .info-nav-inner{
-        .info-nav-left{
-            margin-bottom: 0;
-        }
-        .quick-call-info{
-            display: flex;
-            align-items: center;
-        
+        .quick-call-info{       
             .quick-call{
                 width: 2rem;
                 height: 2rem;
