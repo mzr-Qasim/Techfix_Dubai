@@ -72,6 +72,25 @@
             }
         }
     }
+    .our-features-wrapper{
+        .col-inner{
+                .feature{
+    
+                    i{
+                        font-size: calc(2.5rem + .2vw);
+                    }
+                }
+                .feature-bg{
+                    padding: .8rem;     
+                    i{
+                        width: 5rem;
+                        height: 5rem;
+                    }
+                }
+                
+
+            }
+        }
     
 }
 
@@ -97,7 +116,7 @@
 
     .our-features-wrapper{
         .col-inner{
-                .feature{
+                .feature-bg{
                     flex-direction: column;
                     align-items: center;
 
