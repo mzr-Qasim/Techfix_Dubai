@@ -12330,10 +12330,9 @@ small.section-info::after, .section-info.small::after {
 
 .main-navbar {
   background-color: #ffffff;
-  padding: 1.5rem 0;
 }
 .main-navbar .navbar-brand img {
-  width: 220px;
+  width: 160px;
 }
 .main-navbar .navbar-nav {
   display: flex;
@@ -12662,6 +12661,9 @@ section.our-features {
   }
 }
 @media (max-width: 575px) {
+  .main-navbar .navbar-brand img {
+    width: 120px;
+  }
   .sm-hide {
     display: none !important;
   }

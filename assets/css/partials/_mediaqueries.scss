@@ -96,6 +96,13 @@
 
 
 @media (max-width: 575px){
+    .main-navbar{
+        .navbar-brand{
+            img{
+                width: 120px;
+            }
+        }
+    }
     .sm-hide{
         display: none!important;
     }
