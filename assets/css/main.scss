@@ -240,7 +240,6 @@
                     border-bottom-left-radius: 2rem;
 
                     strong{
-                        display: block;
                         font-size: calc(1.5rem + .2vw);
                         font-weight: 500;
                         margin-bottom: 1rem;
@@ -260,7 +259,6 @@
                 margin-bottom: 1rem;
             }
             strong{
-                display: block;
                 font-size: calc(1rem + .2vw);
                 font-weight: 500;
                 margin-bottom: 1rem;
@@ -272,9 +270,7 @@
     }
 }
 
-.our-services{
-    margin-bottom: $section-space;
-}
+
 .our-services-wrapper{
     width: 100%;
 }
@@ -337,7 +333,6 @@
 
     }
     strong{
-        display: block;
         font-size: calc(1rem + .2vw);
         font-weight: 600;
         margin-bottom: 1rem;
@@ -348,6 +343,45 @@
         .service-icons{
             background-color: $secondary-color;
         }
+    }
+}
+
+section.our-features{
+    margin-bottom: $section-space;
+}
+
+.our-features-wrapper{
+    background-color: $universal-color-1;
+    padding: 4rem 0;
+
+
+    .col-inner{
+        color: $universal-color-2;
+            h3{
+                font-size: calc(2.5rem + .2vw);
+                font-weight: 600;
+                margin-bottom: 3rem;
+            }
+            .feature{
+                &:not(:last-child){
+                    margin-bottom: 4rem;
+                }
+                display: flex;
+                align-items: flex-start;
+
+                i{
+                    font-size: calc(3.5rem + .2vw);
+                    margin-right: 3rem;
+                }
+
+                strong{
+                    font-size: calc(1.5rem + .2vw);
+                    font-weight: 600;
+                    margin-bottom: 1rem;
+                }
+            }
+
+
     }
 }
 
