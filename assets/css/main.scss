@@ -354,7 +354,6 @@ section.our-features{
     background-color: $universal-color-1;
     padding: 4rem 0;
 
-
     .col-inner{
         color: $universal-color-2;
             h3{
@@ -372,12 +371,19 @@ section.our-features{
                 i{
                     font-size: calc(3.5rem + .2vw);
                     margin-right: 3rem;
+                    transition: ease-in-out .5s;
                 }
 
                 strong{
                     font-size: calc(1.5rem + .2vw);
                     font-weight: 600;
                     margin-bottom: 1rem;
+                }
+
+                &:hover{
+                    i{
+                        scale: .9;
+                    }
                 }
             }
 

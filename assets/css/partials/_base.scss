@@ -200,3 +200,31 @@ small.section-info{
     border-top-right-radius: 1rem;
     transition: ease-in-out .3s;
 }
+
+
+.feature-bg{
+    background-color: $primary-color;
+    padding: 2rem;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+
+
+    i{
+        width: 6rem;
+        height: 6rem;
+        border-radius: 50%;
+        background-color: $secondary-color;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: ease-in-out .3s;
+
+    }
+
+    &:hover{
+        i{
+            background-color: $universal-color-3;
+        }
+    }
+}

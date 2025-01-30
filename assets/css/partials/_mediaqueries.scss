@@ -94,6 +94,20 @@
             display: none;
         }
     }
+
+    .our-features-wrapper{
+        .col-inner{
+                .feature{
+                    flex-direction: column;
+                    align-items: center;
+
+                    i{
+                        margin-right: 0;
+                        margin-bottom: 2rem;
+                    }
+                }
+            }
+        }
 }
 
 
