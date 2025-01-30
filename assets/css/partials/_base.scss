@@ -4,7 +4,7 @@ $universal-color-2: #ffffff;
 $universal-color-3: #000000;
 $primary-color: #005cff;
 $secondary-color: #f5545a;
-$tertiary-color:  #EEEEEE;
+$tertiary-color:   #e8ecf6;
 $quaternary-color: #1a2c50;
 
 
@@ -196,7 +196,7 @@ small.section-info{
     background-color: $universal-color-3;
     padding: 2rem 1.5rem;
     color: $universal-color-2;
-    font-size: calc(2.5rem + .2vw);
+    font-size: calc(3rem + .2vw);
     border-top-right-radius: 1rem;
     transition: ease-in-out .3s;
 }
@@ -208,18 +208,31 @@ small.section-info{
     border-top-right-radius: 1rem;
     border-bottom-right-radius: 1rem;
     border-bottom-left-radius: 1rem;
+    display: flex;
+    align-items: center;
+
+    &:not(:last-child){
+        margin-bottom: 3rem;
+    }
 
 
     i{
         width: 6rem;
         height: 6rem;
-        border-radius: 50%;
+        font-size: calc(3rem + .2vw);
+        margin-right: 2rem;
+        border-radius: 50%!important;
         background-color: $secondary-color;
-        display: flex;
+        display: inline-flex;
         align-items: center;
         justify-content: center;
         transition: ease-in-out .3s;
 
+    }
+    strong{
+        font-size: calc(1.2rem + .2vw);
+        font-weight: 600;
+        margin-bottom: 1rem;
     }
 
     &:hover{

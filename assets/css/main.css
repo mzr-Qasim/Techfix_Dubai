@@ -12252,7 +12252,7 @@ small.section-info::after, .section-info.small::after {
   background-color: #000000;
   padding: 2rem 1.5rem;
   color: #ffffff;
-  font-size: calc(2.5rem + 0.2vw);
+  font-size: calc(3rem + 0.2vw);
   border-top-right-radius: 1rem;
   transition: ease-in-out 0.3s;
 }
@@ -12263,16 +12263,28 @@ small.section-info::after, .section-info.small::after {
   border-top-right-radius: 1rem;
   border-bottom-right-radius: 1rem;
   border-bottom-left-radius: 1rem;
+  display: flex;
+  align-items: center;
+}
+.feature-bg:not(:last-child) {
+  margin-bottom: 3rem;
 }
 .feature-bg i {
   width: 6rem;
   height: 6rem;
-  border-radius: 50%;
+  font-size: calc(3rem + 0.2vw);
+  margin-right: 2rem;
+  border-radius: 50% !important;
   background-color: #f5545a;
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   transition: ease-in-out 0.3s;
+}
+.feature-bg strong {
+  font-size: calc(1.2rem + 0.2vw);
+  font-weight: 600;
+  margin-bottom: 1rem;
 }
 .feature-bg:hover i {
   background-color: #000000;
@@ -12520,6 +12532,7 @@ small.section-info::after, .section-info.small::after {
   -o-object-fit: cover;
      object-fit: cover;
   z-index: -1;
+  opacity: 0.3;
 }
 .our-services-inner .title {
   padding-top: 3rem;
@@ -12538,7 +12551,7 @@ small.section-info::after, .section-info.small::after {
 .service-card .service-card-title {
   margin-bottom: 2rem;
   width: 100%;
-  background-color: #EEEEEE;
+  background-color: #e8ecf6;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -12586,7 +12599,7 @@ section.our-features {
   transition: ease-in-out 0.5s;
 }
 .our-features-wrapper .col-inner .feature strong {
-  font-size: calc(1.5rem + 0.2vw);
+  font-size: calc(1.2rem + 0.2vw);
   font-weight: 600;
   margin-bottom: 1rem;
 }

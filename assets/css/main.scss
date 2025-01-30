@@ -292,6 +292,7 @@
         height: 100%;
         object-fit: cover;
         z-index: -1;
+        opacity: .3;
 
 
     }
@@ -375,7 +376,7 @@ section.our-features{
                 }
 
                 strong{
-                    font-size: calc(1.5rem + .2vw);
+                    font-size: calc(1.2rem + .2vw);
                     font-weight: 600;
                     margin-bottom: 1rem;
                 }
