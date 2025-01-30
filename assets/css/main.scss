@@ -97,7 +97,7 @@
     .swiper-slide{
         figure{
             width: 100%;
-            aspect-ratio: 1/.45;
+            aspect-ratio: 1/.5;
             position: relative;
             img{
                 width: 100%;
@@ -296,6 +296,7 @@
         height: 100%;
         object-fit: cover;
         z-index: -1;
+
 
     }
 

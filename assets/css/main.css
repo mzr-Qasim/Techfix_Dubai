@@ -12321,7 +12321,7 @@ small.section-info::after, .section-info.small::after {
 }
 .main-hero-section .swiper-slide figure {
   width: 100%;
-  aspect-ratio: 1/0.45;
+  aspect-ratio: 1/0.5;
   position: relative;
 }
 .main-hero-section .swiper-slide figure img {
