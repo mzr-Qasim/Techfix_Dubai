@@ -12126,9 +12126,6 @@ a {
   outline: none;
   box-shadow: none;
 }
-.navbar-toggler:hover {
-  background-color: #f5545a;
-}
 
 .quick-call-info {
   display: flex;
