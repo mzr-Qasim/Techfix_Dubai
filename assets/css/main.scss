@@ -425,7 +425,7 @@
     }
 
     .row [class^="col-"] {
-        padding-bottom: 6rem;
+        padding-bottom: 2rem;
     }
     
     .project-card{
@@ -433,19 +433,21 @@
             width: 100%;
             aspect-ratio: 1/1;
             position: relative;
+            overflow: hidden;
             img{
                 width: 100%;
                 height: 100%;
                 object-fit: cover;
             }
 
+
             figcaption{
                 position: absolute;
-                top: 100%;
+                top: 85%;
                 left: 50%;
                 width: 80%;
-                padding-top: .8rem!important;
                 transform: translate(-50%, -50%);
+                z-index: 2;
 
             }
             .figcaption-inner{
@@ -453,6 +455,8 @@
                 background-color: $universal-color-2;
                 text-align: center;
                 padding: 1rem 0;
+                position: relative;
+                overflow: hidden;
 
                 small{
                     color: $secondary-color;
@@ -465,8 +469,54 @@
                     font-weight: 600;
                 }
 
+                &:after{
+                    position: absolute;
+                    content: '';
+                    bottom: 0;
+                    left: 0;
+                    transform: translateX(100%);
+                    width: 100%;
+                    height: 5px;
+                    background: linear-gradient(90deg, rgba(0,92,255,1) 22%, rgba(245,84,90,1) 100%);
+                    transition: transform 0.5s ease;
+                }
+
+
+
             }
+            
+            &::after{
+                content: '';
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                top: 0;
+                left: 0;
+                background-color: $universal-color-1;
+                opacity: .7;
+                transform: translateY(-100%);
+                transition: transform 0.5s ease;
+                z-index: 1;
+            }
+    
+            &:hover::after{
+                transform: translateY(0);
+            }
+
+            &:hover 
+                .figcaption-inner{
+                    &::after{
+                        transform: translateX(0);
+                    }
+                }
+
+                
+            
         }
+       
+        
+
+
     }
     
 }

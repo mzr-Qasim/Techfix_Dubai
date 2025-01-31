@@ -12630,12 +12630,13 @@ small.section-info::after, .section-info.small::after {
   margin-bottom: 4rem;
 }
 .our-projects-inner .row [class^=col-] {
-  padding-bottom: 6rem;
+  padding-bottom: 2rem;
 }
 .our-projects-inner .project-card figure {
   width: 100%;
   aspect-ratio: 1/1;
   position: relative;
+  overflow: hidden;
 }
 .our-projects-inner .project-card figure img {
   width: 100%;
@@ -12645,17 +12646,19 @@ small.section-info::after, .section-info.small::after {
 }
 .our-projects-inner .project-card figure figcaption {
   position: absolute;
-  top: 100%;
+  top: 85%;
   left: 50%;
   width: 80%;
-  padding-top: 0.8rem !important;
   transform: translate(-50%, -50%);
+  z-index: 2;
 }
 .our-projects-inner .project-card figure .figcaption-inner {
   width: 100%;
   background-color: #ffffff;
   text-align: center;
   padding: 1rem 0;
+  position: relative;
+  overflow: hidden;
 }
 .our-projects-inner .project-card figure .figcaption-inner small, .our-projects-inner .project-card figure .figcaption-inner .small {
   color: #f5545a;
@@ -12666,6 +12669,36 @@ small.section-info::after, .section-info.small::after {
   color: #000000;
   font-size: calc(1.2rem + 0.2vw);
   font-weight: 600;
+}
+.our-projects-inner .project-card figure .figcaption-inner:after {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: 0;
+  transform: translateX(100%);
+  width: 100%;
+  height: 5px;
+  background: linear-gradient(90deg, rgb(0, 92, 255) 22%, rgb(245, 84, 90) 100%);
+  transition: transform 0.5s ease;
+}
+.our-projects-inner .project-card figure::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #090808;
+  opacity: 0.7;
+  transform: translateY(-100%);
+  transition: transform 0.5s ease;
+  z-index: 1;
+}
+.our-projects-inner .project-card figure:hover::after {
+  transform: translateY(0);
+}
+.our-projects-inner .project-card figure:hover .figcaption-inner::after {
+  transform: translateX(0);
 }
 
 @media (max-width: 1199px) {
@@ -12734,7 +12767,7 @@ small.section-info::after, .section-info.small::after {
     align-items: center;
   }
   .main-hero-section .swiper-slide figure {
-    aspect-ratio: 1/2;
+    aspect-ratio: 1/1.8;
   }
   .main-hero-section .swiper-button-next, .main-hero-section .swiper-button-prev {
     display: none;
