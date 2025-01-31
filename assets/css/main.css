@@ -12426,8 +12426,8 @@ small.section-info::after, .section-info.small::after {
   height: 100%;
   top: 0;
   left: 0;
-  background-color: #000000;
-  opacity: 0.8;
+  background-color: #090808;
+  opacity: 0.5;
   z-index: 1;
 }
 .main-hero-section .swiper-pagination-bullet {
@@ -12568,10 +12568,6 @@ small.section-info::after, .section-info.small::after {
   background-color: #f5545a;
 }
 
-section.our-features {
-  margin-bottom: 6rem;
-}
-
 .our-features-wrapper {
   background-color: #090808;
   padding: 4rem 0;
@@ -12603,6 +12599,73 @@ section.our-features {
 }
 .our-features-wrapper .col-inner .feature:hover i {
   scale: 0.9;
+}
+
+.our-projects {
+  margin-bottom: 6rem;
+}
+
+.our-projects-inner {
+  min-height: 100vh;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.our-projects-inner img.section-bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  z-index: -1;
+  opacity: 0.7;
+}
+.our-projects-inner .title {
+  padding-top: 3rem;
+}
+.our-projects-inner .title h3.section-title, .our-projects-inner .title .section-title.h3 {
+  margin-bottom: 4rem;
+}
+.our-projects-inner .row [class^=col-] {
+  padding-bottom: 6rem;
+}
+.our-projects-inner .project-card figure {
+  width: 100%;
+  aspect-ratio: 1/1;
+  position: relative;
+}
+.our-projects-inner .project-card figure img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.our-projects-inner .project-card figure figcaption {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  width: 80%;
+  padding-top: 0.8rem !important;
+  transform: translate(-50%, -50%);
+}
+.our-projects-inner .project-card figure .figcaption-inner {
+  width: 100%;
+  background-color: #ffffff;
+  text-align: center;
+  padding: 1rem 0;
+}
+.our-projects-inner .project-card figure .figcaption-inner small, .our-projects-inner .project-card figure .figcaption-inner .small {
+  color: #f5545a;
+  font-size: calc(0.7rem + 0.2vw);
+  font-weight: 500;
+}
+.our-projects-inner .project-card figure .figcaption-inner strong {
+  color: #000000;
+  font-size: calc(1.2rem + 0.2vw);
+  font-weight: 600;
 }
 
 @media (max-width: 1199px) {
