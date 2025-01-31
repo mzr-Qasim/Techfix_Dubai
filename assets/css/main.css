@@ -12284,7 +12284,6 @@ small.section-info::after, .section-info.small::after {
 .feature-bg strong {
   font-size: calc(1.2rem + 0.2vw);
   font-weight: 600;
-  margin-bottom: 1rem;
 }
 .feature-bg:hover i {
   background-color: #000000;
@@ -12679,11 +12678,11 @@ section.our-features {
   }
   .our-features-wrapper .col-inner .feature-bg {
     flex-direction: column;
-    align-items: center;
+    align-items: start;
   }
   .our-features-wrapper .col-inner .feature-bg i {
     margin-right: 0;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
   }
 }
 @media (max-width: 375px) {
