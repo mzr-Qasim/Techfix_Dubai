@@ -12374,43 +12374,20 @@ small.section-info::after, .section-info.small::after {
   z-index: 2;
 }
 .main-hero-section .swiper-slide figure figcaption small, .main-hero-section .swiper-slide figure figcaption .small {
-  display: inline-block;
+  display: block;
   font-size: calc(1rem + 0.2vw);
   font-weight: 500;
   color: #ffffff;
   margin-bottom: 2rem;
-  position: relative;
-}
-.main-hero-section .swiper-slide figure figcaption small::before, .main-hero-section .swiper-slide figure figcaption .small::before {
-  position: absolute;
-  content: "";
-  background: linear-gradient(90deg, rgb(0, 92, 255) 22%, rgb(245, 84, 90) 100%);
-  top: 50%;
-  left: 100%;
-  width: 2rem;
-  height: 3px;
-  transform: translate(0, 0);
-  margin-left: 1rem;
-}
-.main-hero-section .swiper-slide figure figcaption small::after, .main-hero-section .swiper-slide figure figcaption .small::after {
-  position: absolute;
-  content: "";
-  background: linear-gradient(90deg, rgb(0, 92, 255) 22%, rgb(245, 84, 90) 100%);
-  top: 50%;
-  right: 100%;
-  width: 2rem;
-  height: 3px;
-  transform: translate(0, 0);
-  margin-right: 1rem;
 }
 .main-hero-section .swiper-slide figure figcaption h2, .main-hero-section .swiper-slide figure figcaption .h2 {
   color: #ffffff;
   font-size: calc(4.5rem + 0.2vw);
-  margin-bottom: 4rem;
 }
 .main-hero-section .swiper-slide figure figcaption .call-us-button {
-  display: inline-flex;
+  display: inline-block;
   align-items: center;
+  margin-bottom: 4rem;
 }
 .main-hero-section .swiper-slide figure figcaption .call-us-button i {
   padding-right: 1rem;
