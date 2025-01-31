@@ -12744,7 +12744,7 @@ small.section-info::after, .section-info.small::after {
     align-items: center;
   }
   .main-hero-section .swiper-slide figure {
-    aspect-ratio: 1/1.8;
+    aspect-ratio: 1/1;
   }
   .main-hero-section .swiper-button-next, .main-hero-section .swiper-button-prev {
     display: none;
@@ -12760,6 +12760,6 @@ small.section-info::after, .section-info.small::after {
 }
 @media (max-width: 375px) {
   .main-hero-section .swiper-slide figure {
-    aspect-ratio: 1/2.5;
+    aspect-ratio: 1/1;
   }
 }/*# sourceMappingURL=main.css.map */
