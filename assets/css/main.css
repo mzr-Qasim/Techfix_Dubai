@@ -12404,7 +12404,7 @@ small.section-info::after, .section-info.small::after {
   top: 0;
   left: 0;
   background-color: #090808;
-  opacity: 0.5;
+  opacity: 0.8;
   z-index: 1;
 }
 .main-hero-section .swiper-pagination-bullet {
