@@ -12736,6 +12736,9 @@ small.section-info::after, .section-info.small::after {
   .main-navbar .navbar-brand img {
     width: 120px;
   }
+  .lg-font {
+    font-size: calc(1.8rem + 0.2vw) !important;
+  }
   .sm-hide {
     display: none !important;
   }
@@ -12744,7 +12747,10 @@ small.section-info::after, .section-info.small::after {
     align-items: center;
   }
   .main-hero-section .swiper-slide figure {
-    aspect-ratio: 1/1;
+    aspect-ratio: 1/1.2;
+  }
+  .main-hero-section .swiper-slide figure .call-us-button {
+    margin-bottom: 2rem !important;
   }
   .main-hero-section .swiper-button-next, .main-hero-section .swiper-button-prev {
     display: none;
@@ -12760,6 +12766,6 @@ small.section-info::after, .section-info.small::after {
 }
 @media (max-width: 375px) {
   .main-hero-section .swiper-slide figure {
-    aspect-ratio: 1/1;
+    aspect-ratio: 1/1.4;
   }
 }/*# sourceMappingURL=main.css.map */

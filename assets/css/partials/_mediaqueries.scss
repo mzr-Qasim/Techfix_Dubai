@@ -105,6 +105,9 @@
             }
         }
     }
+    .lg-font{
+        font-size: calc(1.8rem + .2vw)!important;
+    }
     .sm-hide{
         display: none!important;
     }
@@ -115,7 +118,10 @@
     .main-hero-section{
         .swiper-slide{
             figure{
-                aspect-ratio: 1/1;
+                aspect-ratio: 1/1.2;
+                .call-us-button{
+                    margin-bottom: 2rem!important;
+                }
 
             }
         }
@@ -143,7 +149,7 @@
     .main-hero-section{
         .swiper-slide{
             figure{
-                aspect-ratio: 1/1;
+                aspect-ratio: 1/1.4;
             }
         }
     }
