@@ -107,6 +107,7 @@
     }
     .lg-font{
         font-size: calc(1.8rem + .2vw)!important;
+        line-height: 3rem;
     }
     .sm-hide{
         display: none!important;
@@ -119,9 +120,22 @@
         .swiper-slide{
             figure{
                 aspect-ratio: 1/1.2;
+
+                figcaption{
+                    width: 100%;
+                }
                 .call-us-button{
                     margin-bottom: 2rem!important;
+                    height: 3rem!important;
+                    width: 3rem!important;
+                    i{
+                        font-size: calc(1.2rem + .2vw);
+                    }
                 }
+                small{
+                    margin-bottom: 1rem!important;
+                }
+
 
             }
         }
