@@ -658,7 +658,8 @@ ul.footer-services{
         padding: .7rem;
         font-size:  calc(1.5rem + .2vw);
     }
-    small{
+    a{
+        color: $universal-color-2;
         padding: .7rem;
         background-color: $universal-color-3;
     }
