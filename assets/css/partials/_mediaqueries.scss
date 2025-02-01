@@ -98,13 +98,10 @@
 
 
 @media (max-width: 575px){
-    .main-navbar{
-        .navbar-brand{
-            img{
-                width: 120px;
-            }
-        }
+    img.main-logo{
+        width: 100px;
     }
+
     .lg-font{
         font-size: calc(1.8rem + .2vw)!important;
         line-height: 3rem;

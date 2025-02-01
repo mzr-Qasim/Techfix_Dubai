@@ -131,8 +131,8 @@ a{
 .theme-hover{
     transition: ease-in-out .3s;
     &:hover{
-        background-color: $secondary-color;
-        color: $universal-color-2;
+        background-color: $secondary-color!important;
+        color: $universal-color-2!important;
     }
 }
 
@@ -238,4 +238,13 @@ small.section-info{
             background-color: $universal-color-3;
         }
     }
+}
+
+.footer-social-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: .8rem;
+    background-color: $universal-color-1;
+
 }
