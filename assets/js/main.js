@@ -1,4 +1,5 @@
 var swiper = new Swiper(".mySwiper", {
+    lazy: true, 
     loop: true,
     navigation: {
         nextEl: ".swiper-button-next",
