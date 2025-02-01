@@ -610,6 +610,10 @@ img.main-logo{
                 font-size: calc(1.2rem + .2vw);
             }
         }
+        h4{
+            margin-bottom: 2rem;
+            color: $universal-color-2;
+        }
     }
 }
 
@@ -633,6 +637,33 @@ ul.social-icons{
     }
 }
 
+ul.footer-services{
+    li{
+        &:not(:last-child){
+            margin-bottom: 1rem;
+        }
+
+        small{
+            font-size:  calc( .8rem + .2vw);
+        }
+    }
+}
+
+.email-footer{
+    display: flex;
+    align-items: center;
+    i{
+        background-color: $primary-color;
+        color: $universal-color-2;
+        padding: .7rem;
+        font-size:  calc(1.5rem + .2vw);
+    }
+    small{
+        padding: .7rem;
+        background-color: $universal-color-3;
+    }
+}
+
 
 
 
@@ -645,7 +676,7 @@ ul.social-icons{
         color: $universal-color-2;
 
         small{
-            font-size: calc(.7rem + .2vw)
+            font-size: calc(.6rem + .2vw)
         }
     }
 }

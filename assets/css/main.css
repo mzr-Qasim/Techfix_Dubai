@@ -12760,6 +12760,10 @@ img.main-logo {
   margin-right: 1rem;
   font-size: calc(1.2rem + 0.2vw);
 }
+.footer-inner .footer-col-inner h4, .footer-inner .footer-col-inner .h4 {
+  margin-bottom: 2rem;
+  color: #ffffff;
+}
 
 ul.social-icons {
   margin-top: 3rem;
@@ -12777,6 +12781,28 @@ ul.social-icons li a:hover {
   background-color: #f5545a;
 }
 
+ul.footer-services li:not(:last-child) {
+  margin-bottom: 1rem;
+}
+ul.footer-services li small, ul.footer-services li .small {
+  font-size: calc(0.8rem + 0.2vw);
+}
+
+.email-footer {
+  display: flex;
+  align-items: center;
+}
+.email-footer i {
+  background-color: #005cff;
+  color: #ffffff;
+  padding: 0.7rem;
+  font-size: calc(1.5rem + 0.2vw);
+}
+.email-footer small, .email-footer .small {
+  padding: 0.7rem;
+  background-color: #000000;
+}
+
 .footer-copyright {
   padding: 2rem 0;
   background-color: #090808;
@@ -12786,7 +12812,7 @@ ul.social-icons li a:hover {
   color: #ffffff;
 }
 .footer-copyright .footer-copyright-inner small, .footer-copyright .footer-copyright-inner .small {
-  font-size: calc(0.7rem + 0.2vw);
+  font-size: calc(0.6rem + 0.2vw);
 }
 
 @media (max-width: 1199px) {
