@@ -1,4 +1,7 @@
 @media (max-width: 1199px){
+    .xl-hide{
+        display: none;
+    }
     .row [class^="col-"] {
         &:not(:last-child){
             padding-bottom: 3rem;
