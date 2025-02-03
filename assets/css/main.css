@@ -12333,7 +12333,7 @@ img.main-logo {
 }
 
 .main-navbar {
-  background-color: #ffffff;
+  background-color: #000000;
 }
 .main-navbar .navbar-nav {
   display: flex;
@@ -12344,7 +12344,7 @@ img.main-logo {
   margin-right: 0.5rem;
 }
 .main-navbar .navbar-nav li a {
-  color: #090808;
+  color: #ffffff;
   font-size: calc(1rem + 0.2vw);
   font-weight: 500;
   transition: ease-in-out 0.3s;
